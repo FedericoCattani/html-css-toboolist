@@ -82,7 +82,7 @@ main{
 
 .container{
   padding-left: 30px;
-  height: 1000px;
+  height: 450px;
   background-color: white;
   margin: 0 auto;
   border-bottom-right-radius: 8px;
@@ -102,16 +102,16 @@ p{
   padding-bottom: 10px;
 }
 
-.container .todo .blue{
-  background-color: #47ADF1;
+ .blue{
+  background-color: #45ABEA;
   color: white;
   font-size: 12px;
   border-radius: 10px;
   padding: 5px;
 }
 
-.container .todo2 mark{
-  background-color: red;
+.purple{
+  background-color: #9C72E4;
   color: white;
   font-size: 12px;
   border-radius: 10px;
@@ -119,11 +119,38 @@ p{
 
 }
 
-.container .todo3 mark{
-  background-color: red;
+ .green{
+  background-color:#64C0A9;
   color: white;
   font-size: 12px;
   border-radius: 10px;
   padding: 5px;
 
+}
+
+.orange{
+  background-color:#F29E33;
+  color: white;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 5px;
+
+}
+
+
+.pink{
+  background-color:#D863A1;
+  color: white;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
+.light-green{
+  background-color:#B0C926;
+  color: white;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 5px;
 }
