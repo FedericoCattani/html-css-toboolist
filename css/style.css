@@ -24,6 +24,7 @@ header {
   width: 100%;
   height: 100px;
   background-color: white;
+  margin-bottom: 50px;
 }
 
 header img {
@@ -38,3 +39,50 @@ header h1{
 }
 
 /*/Header*/
+
+
+/*Main*/
+main{
+  width: 50%;
+  height: 70px;
+  background-color: white;
+  margin: 0 auto;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-bottom: 1px solid #F6F8F9;
+}
+
+.buttons{
+  display: inline-block;
+  padding: 20px 0 5px 30px;
+}
+
+
+
+#b1{
+  background-color: #47ADF1;
+  color: white;
+  border: 1px solid #47ADF1; 
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+#b2{
+  background-color: white;
+  color: #D1D6DA;
+  border: 1px solid #D1D6DA; 
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+
+.container{
+  height: 1000px;
+  background-color: white;
+  margin: 0 auto;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-top: 3px solid #F6F8F9;
+}
