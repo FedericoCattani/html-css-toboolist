@@ -78,11 +78,52 @@ main{
 }
 
 
+
+
 .container{
+  padding-left: 30px;
   height: 1000px;
   background-color: white;
   margin: 0 auto;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
   border-top: 3px solid #F6F8F9;
+}
+
+h3{
+  padding-top: 20px;
+}
+
+p{
+  padding-left: 8px;
+}
+
+.container p{
+  padding-bottom: 10px;
+}
+
+.container .todo .blue{
+  background-color: #47ADF1;
+  color: white;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.container .todo2 mark{
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 5px;
+
+}
+
+.container .todo3 mark{
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 5px;
+
 }
